@@ -1,7 +1,7 @@
 package com.srinivasa.springboot.service;
 
-import org.springframework.stereotype.Service;
+import com.srinivasa.springboot.Entity.SampleEntity;
 
-@Service
-public class SampleService {
+public interface SampleService {
+    public SampleEntity addStudent(SampleEntity sampleEntity);
 }
