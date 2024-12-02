@@ -10,5 +10,8 @@ public class SampleEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private long studentId;
+    private String studentName;
+    private String studentAddress;
+    private String studentMajor;
 }
