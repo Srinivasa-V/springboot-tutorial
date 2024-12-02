@@ -1,7 +1,13 @@
 package com.srinivasa.springboot.service;
 
-import org.springframework.stereotype.Service;
+import com.srinivasa.springboot.Entity.SampleEntity;
 
-@Service
-public class SampleService {
+import java.util.List;
+
+public interface SampleService {
+    public List<SampleEntity> enterAllStudent(List<SampleEntity> sampleEntityList);
+
+    public List<SampleEntity> getAllStudent();
+
+    public SampleEntity getStudentById(Long id);
 }
